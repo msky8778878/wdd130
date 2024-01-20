@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,700;1,8..144,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+
+    --primary-color: #ffffff;
+    --secondary-color: #234531;
+    --accent1-color: #67697c;
+    --accent2-color: #b79d94;
+
+    --heading-font: 'Roboto Serif', serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #234531;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #234531;
+    --nav-hover-background-color: #b79d94;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
