@@ -13,14 +13,18 @@
 
 <body>
     <header>
-        <img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/logo5_200.png"
-            alt="Whitewater Rafting Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+        <div class="header-grid">
+            <div></div>
+            <img id="header-logo" src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/logo5_200.png"
+                alt="Whitewater Rafting Logo">
+            <nav id="header-navbar">
+                <a class="header-link" href="index.html">Home</a>
+                <a class="header-link" href="about.html">About Us</a>
+                <a class="header-link" href="trips.html">Trips</a>
+                <a class="header-link" href="contact.html">Contact Us</a>
+            </nav>
+            <div></div>
+        </div>
     </header>
 
     <main>
@@ -33,29 +37,63 @@
                     amet. Lorem ipsum dolor sit amet.</p>
             </article>
         </div>
-        <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, inventore?Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Eaque eum architecto iusto culpa perspiciatis, dolorum odit harum velit
-                officia nesciunt? Iure, ratione. Voluptates necessitatibus sunt dignissimos nobis sint maxime cum.</p>
+        <section id="history-div">
+            <div class="grid-center-headline">
+                <h2>History</h2>
+            </div>
+            <div class="history-grid">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, inventore?Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Eaque eum architecto iusto culpa perspiciatis, dolorum odit harum
+                    velit officia nesciunt? Iure, ratione. Voluptates necessitatibus sunt dignissimos nobis sint maxime
+                    cum.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam aut atque eligendi illum,
+                    voluptatum dolor dolore corporis illo animi doloremque ea maxime optio libero sed excepturi sapiente
+                    fugit soluta autem? Corporis non, maiores dolorum itaque officia quo consectetur porro quasi ducimus
+                    iusto repellat? Dicta blanditiis in vero cumque alias ex.
+                </p>
+                <img src="images/raftinghistory1.jpg" alt="Rafting History - the river">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, inventore?Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Eaque eum architecto iusto culpa perspiciatis, dolorum odit harum
+                    velit officia nesciunt? Iure, ratione. Voluptates necessitatibus sunt dignissimos nobis sint maxime
+                    cum.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam aut atque eligendi illum,
+                    voluptatum dolor dolore corporis illo animi doloremque ea maxime optio libero sed excepturi sapiente
+                    fugit soluta autem? Corporis non, maiores dolorum itaque officia quo consectetur porro quasi ducimus
+                    iusto repellat? Dicta blanditiis in vero cumque alias ex.
+                </p>
+            </div>
         </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting1.jpg" alt="Group of People Rafting">
-            <img src="images/rafting4.jpg" alt="Two Rafts">
-            <img src="images/rafting2.jpg" alt="Group of People Rafting">
-            <img src="images/rafting5.jpg" alt="River and Nature">
-            <img src="images/rafting3.jpg" alt="Group of People Rafting">
+        <section id="adventure-div">
+            <div class="grid-center-headline">
+                <h2>Adventure Awaits You!</h2>
+            </div>
+            <div class="adventure-grid">
+                <div class="a-p-caption"><img class="adventure-pic" src="images/rafting1.jpg"
+                        alt="Group of People Rafting">Caption</div>
+                <div class="a-p-caption"><img class="adventure-pic" src="images/rafting4.jpg" alt="Two Rafts">Caption
+                </div>
+                <div class="a-p-caption"><img class="adventure-pic" src="images/rafting2.jpg"
+                        alt="Group of People Rafting">Caption</div>
+                <div class="a-p-caption"><img class="adventure-pic" src="images/rafting5.jpg"
+                        alt="River and Nature">Caption</div>
+                <div class="a-p-caption"><img class="adventure-pic" src="images/rafting3.jpg"
+                        alt="Group of People Rafting">Caption</div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy;2024 Whitewater Rafting | Miroslav Michalsky</p>
-        <nav class="sociallinks">
-            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
-        </nav>
+        <div class="footer-grid">
+            <div></div>
+            <p>&copy;2024 Whitewater Rafting | Miroslav Michalsky</p>
+            <div></div>
+            <nav class="sociallinks">
+                <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+            </nav>
+
+        </div>
     </footer>
 </body>
 
