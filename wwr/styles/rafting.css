@@ -305,3 +305,7 @@ button:hover {
     align-items: center;
     grid-template-columns: 1fr 4fr 1fr;
 }
+
+.linkwireframe {
+    color: white;
+}
