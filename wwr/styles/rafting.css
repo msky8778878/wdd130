@@ -21,6 +21,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: auto;
 }
 
 h1,
@@ -304,4 +305,117 @@ button:hover {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 4fr 1fr;
+}
+
+.welcomesign {
+    position: relative;
+}
+
+.welcomesign img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.welcomesign h1 {
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+}
+
+.welcomesign h2 {
+    position: absolute;
+    left: 25%;
+    top: 14rem;
+    text-align: center;
+    width: 50%;
+    font-size: 3rem;
+}
+
+.newsletter-form {
+    background-color: var(--accent1-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.newsletter-form button {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.newsletter-form label {
+    text-align: center;
+}
+
+.trips-banner {
+    position: relative;
+}
+
+.trips-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.trips-banner a {
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    background-color: rgba(183, 157, 148, .8);
+    width: 80%;
+    margin-left: 5%;
+    padding: 5%;
+    border-radius: 1em;
+    text-decoration: underline;
+}
+
+.trips-banner a:hover {
+    background-color: rgba(35, 69, 49, .8);
+}
+
+.gallery-div {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.gallery-grid {
+    max-width: 960px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+    padding: 0;
+}
+
+.gallery-pic {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-pic-d {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-pic-d p {
+    text-align: center;
+    padding: 1rem;
+    margin-top: -2rem;
+    font-size: 1.4rem;
+}
+
+.gallery-pic-d h3 {
+    text-align: center;
+    font-size: 1.9rem;
 }
