@@ -419,3 +419,73 @@ button:hover {
     text-align: center;
     font-size: 1.9rem;
 }
+
+.contact-banner {
+    position: relative;
+}
+
+.contact-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact-banner a {
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    background-color: rgba(103, 105, 124, .8);
+    width: 80%;
+    margin-left: 5%;
+    padding: 5%;
+    border-radius: 0.3em;
+    text-decoration: underline;
+}
+
+.contact-banner a:hover {
+    background-color: rgba(35, 69, 49, .8);
+}
+
+
+.trips-gallery-div {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 3em;
+    padding-top: 1em;
+    margin-bottom: 0;
+}
+
+.trips-gallery-grid {
+    max-width: 960px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    padding: 0;
+}
+
+.trips-gallery-div h2 {
+    font-size: 3em;
+}
+
+.trips-gallery-pic-d {
+    text-align: center;
+    padding: 0.35em;
+    margin: 0;
+    background-color: var(--accent1-color);
+}
+
+.trips-gallery-pic-d p {
+    text-align: center;
+    padding: 1rem;
+    margin-top: -2rem;
+    font-size: 1.4rem;
+}
+
+.trips-gallery-pic-d h3 {
+    text-align: center;
+    font-size: 1.9rem;
+}
