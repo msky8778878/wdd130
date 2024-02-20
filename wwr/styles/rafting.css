@@ -432,7 +432,7 @@ button:hover {
 
 .contact-banner a {
     position: absolute;
-    top: 5rem;
+    top: 7rem;
     text-align: center;
     width: 100%;
     font-size: 5rem;
@@ -447,6 +447,17 @@ button:hover {
 
 .contact-banner a:hover {
     background-color: rgba(35, 69, 49, .8);
+}
+
+.contact-banner p {
+    position: absolute;
+    top: 0rem;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
 }
 
 
@@ -488,4 +499,49 @@ button:hover {
 .trips-gallery-pic-d h3 {
     text-align: center;
     font-size: 1.9rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 4.5rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.trips-table {
+    padding: 1em;
+    background-color: var(--accent1-color);
+    height: 25rem;
+}
+
+.trips-table a {
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+    background-color: rgba(183, 157, 148, .8);
+    width: 80%;
+    margin-left: 24%;
+    padding: 5%;
+    border-radius: 0.3em;
+    text-decoration: underline;
+}
+
+.trips-table a:hover {
+    background-color: rgba(35, 69, 49, .8);
 }
